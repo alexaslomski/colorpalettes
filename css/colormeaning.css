@@ -1,0 +1,27 @@
+.navbar {
+    background: #f44336;
+}
+
+a {
+    color: rgba(250, 241, 241, 0.801);
+}
+
+a:hover {
+    color: rgb(243, 230, 230);
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    box-shadow: none;
+ }
+
+ .card-title {
+    font-size: 35px;
+}
+  
+.card-text {
+   font-size: 25px;
+}
+  
+

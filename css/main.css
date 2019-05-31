@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu');
+
+body {
+    font-family: 'Baloo Tammudu', cursive;  
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    margin-top: 15px;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  box-shadow: none;
+}
+
+a {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.card, .card-body {
+    background: rgb(255, 254, 254);
+    color: white;
+    border-radius: 0%;
+    font-family: 'Baloo Tammudu', cursive;
+    color: #000;
+}
+
+.card-title {
+  font-size: 45px;
+}
+
+.card-text {
+ font-size: 30px;
+}
+
+
+.card {
+    padding: 15px;
+    text-align: center;
+}
+
+.text {
+  margin-top: 5px;  
+  font-size: 25px;
+}
+
+.footer-copyright {
+    margin-top: 5rem;
+    background: #f44336;
+    font-size: 20px;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: rgb(240, 222, 222);
+    text-decoration: none;
+}
+
+p
+{
+  color:#000000;
+  font-family: 'Baloo Tammudu', cursive;  
+}
+
+.btn
+{
+  font-family: 'Baloo Tammudu', cursive;  
+  cursor:pointer;
+  background-color:wheat;
+}
+
+.btn:hover {
+    background-color:rgb(240, 196, 116); 
+}
+
+#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #p12, #p13, #p14, #p15, #p16,
+#p17, #p18, #p19, #p20, #p21, #p22, #p23, #p24, #p25, #p26, #p27, #p28, #p29, #p30 {
+    font-size: 1.3rem;
+}
+

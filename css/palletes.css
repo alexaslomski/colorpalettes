@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu');
+
+body {
+    font-family: 'Baloo Tammudu', cursive;  
+}
+
+.navbar {
+    background: #60b8b3;
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    margin-top: 15px;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    box-shadow: none;
+ }
+
+.jumbotron {
+    background: #f598a8;
+}
+
+.display-4 {
+    color: #ffffff;
+}
+
+.card-title-overlay {
+    font-size: 1.5rem;
+}
+
+a {
+  font-size: 1.5rem;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.text {
+    margin-top: 20px;
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+p {
+    margin-left: 10px;
+    font-size: 1.3rem;
+}
+
+.footer-copyright {
+    background: #60b8b3;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #d1bebe;
+    text-decoration: none;
+}

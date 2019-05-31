@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/red.css" />
+    <meta name="description" content="The Power of Colors">
+    <meta name="description" content="Hex colors, color palletes, color meaning">
+    <meta name="author" content="Alexandra Slomska, the author of the Power of Colors" />
+    <title>The Power of Colors</title>
+    <!--Copy, paste function-->
+    <script src="js/jquery-1.11.1.min.js"></script>    
+    <script>
+      function copyToClipboard(element) {
+     var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val($(element).text()).select();
+    document.execCommand("copy");
+    $temp.remove();
+    }
+   </script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-dark">
+        <a class="navbar-brand" href="index.html">The Power of Colors</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="palletes.html">Palletes</a>
+            </li>  
+            <li class="nav-item">
+                <a class="nav-link" href="colormeaning.html">Color Meaning</a>
+            </li>    
+          </ul>
+        </div>
+      </nav>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">The Power of Colors</h5>
+                           <p class="card-text">Click on the color in order to discover its shades.
+                              </p>
+                            </div>
+                          </div>     
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                     <a href="red.html"><img class="card-img-top" src="img/f44336red.svg" alt="Card image cap"></a>
+                        <p class="text">Red</p>    
+                        <p id="p1">#f44336</p>    
+                        <button onclick="copyToClipboard('#p1')" class="btn">COPY</button>
+                    </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                    <a href="pink.html"><img class="card-img-top" src="img/E91E63pink.svg" alt="Card image cap"></a>
+                        <p class="text">Pink</p> 
+                        <p id="p2">#E91E63</p>    
+                        <button onclick="copyToClipboard('#p2')" class="btn">COPY</button>
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                    <a href="purple.html"><img class="card-img-top" src="img/9C27B0purple.svg" alt="Card image cap"></a>
+                        <p class="text">Purple</p>  
+                        <p id="p3">#9C27B0</p>    
+                        <button onclick="copyToClipboard('#p3')" class="btn">COPY</button>
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                    <a href="deeppurple.html"><img class="card-img-top" src="img/673AB7deeppurple.svg" alt="Card image cap"></a> 
+                        <p class="text">Deep Purple</p> 
+                        <p id="p4">#673AB7</p>    
+                        <button onclick="copyToClipboard('#p4')" class="btn">COPY</button>
+                          </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                    <a href="indigo.html"><img class="card-img-top" src="img/3F51B5indigo.svg" alt="Card image cap"></a>
+                        <p class="text">Indigo</p>
+                        <p id="p5">#3F51B5</p>    
+                        <button onclick="copyToClipboard('#p5')" class="btn">COPY</button> 
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div class="card">
+                        <a href="blue.html"><img class="card-img-top" src="img/2196F3blue.svg" alt="Card image cap"></a>   
+                            <p class="text">Blue</p> 
+                            <p id="p6">#2196F3</p>    
+                            <button onclick="copyToClipboard('#p6')" class="btn">COPY</button>
+                              </div>
+                        </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                    <a href="lightblue.html"><img class="card-img-top" src="img/03A9F4lightblue.svg" alt="Card image cap"></a> 
+                         <p class="text">Light Blue</p>
+                         <p id="p7">#03A9F4</p>    
+                         <button onclick="copyToClipboard('#p7')" class="btn">COPY</button> 
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                    <a href="cyan.html"><img class="card-img-top" src="img/00BCD4cyan.svg" alt="Card image cap"></a>
+                        <p class="text">Cyan</p>
+                        <p id="p8">#00BCD4</p>    
+                        <button onclick="copyToClipboard('#p8')" class="btn">COPY</button>
+                          </div>
+                    </div>
+                    </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                    <a href="teal.html"><img class="card-img-top" src="img/009688teal.svg" alt="Card image cap"></a>
+                        <p class="text">Teal</p> 
+                        <p id="p9">#009688</p>    
+                        <button onclick="copyToClipboard('#p9')" class="btn">COPY</button>
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                    <a href="green.html"><img class="card-img-top" src="img/4CAF50green.svg" alt="Card image cap"></a>
+                        <p class="text">Green</p> 
+                        <p id="p10">#4CAF50</p>    
+                        <button onclick="copyToClipboard('#p10')" class="btn">COPY</button>
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                    <a href="lightgreen.html"><img class="card-img-top" src="img/8BC34Alightgreen.svg" alt="Card image cap"></a>
+                        <p class="text">Light Green</p>
+                        <p id="p11">#8BC34A</p>    
+                        <button onclick="copyToClipboard('#p11')" class="btn">COPY</button> 
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                    <a href="lime.html"><img class="card-img-top" src="img/CDDC39lime.svg" alt="Card image cap"></a>
+                        <p class="text">Lime</p> 
+                        <p id="p12">#CDDC39</p>    
+                        <button onclick="copyToClipboard('#p12')" class="btn">COPY</button>
+                          </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                    <a href="yellow.html"><img class="card-img-top" src="img/FFEB3Byellow.svg" alt="Card image cap"></a>  
+                        <p class="text">Yellow</p>
+                        <p id="p13">#FFEB3B</p>    
+                        <button onclick="copyToClipboard('#p13')" class="btn">COPY</button> 
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                    <a href="amber.html"><img class="card-img-top" src="img/FFC107amber.svg" alt="Card image cap"></a>
+                        <p class="text">Amber</p>
+                        <p id="p14">#FFC107</p>    
+                        <button onclick="copyToClipboard('#p14')" class="btn">COPY</button> 
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                    <a href="orange.html"><img class="card-img-top" src="img/FF9800orange.svg" alt="Card image cap"></a>
+                        <p class="text">Orange</p> 
+                        <p id="p15">#FF9800</p>    
+                        <button onclick="copyToClipboard('#p15')" class="btn">COPY</button>
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                    <a href="deeporange.html"><img class="card-img-top" src="img/FF5722deeporange.svg" alt="Card image cap"></a> 
+                        <p class="text">Deep Orange</p>
+                        <p id="p16">#FF5722</p>    
+                        <button onclick="copyToClipboard('#p16')" class="btn">COPY</button> 
+                          </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                    <a href="brown.html"><img class="card-img-top" src="img/795548brown.svg" alt="Card image cap"></a>  
+                        <p class="text">Brown</p>
+                        <p id="p17">#795548</p>    
+                        <button onclick="copyToClipboard('#p17')" class="btn">COPY</button> 
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                    <a href="grey.html"><img class="card-img-top" src="img/9E9E9Egrey.svg" alt="Card image cap"></a>
+                        <p class="text">Grey</p>
+                        <p id="p18">#9E9E9E</p>    
+                        <button onclick="copyToClipboard('#p18')" class="btn">COPY</button> 
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                        <a href="bluegrey.html"><img class="card-img-top" src="img/607D8Bbluegrey.svg" alt="Card image cap"></a>
+                        <p class="text">Blue Grey</p> 
+                        <p id="p19">#607D8B</p>    
+                        <button onclick="copyToClipboard('#p19')" class="btn">COPY</button>
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                        <a href="black.html"><img class="card-img-top" src="img/232924black.svg" alt="Card image cap"></a>
+                        <p class="text">Black</p> 
+                        <p id="p20">#232924</p>    
+                        <button onclick="copyToClipboard('#p20')" class="btn">COPY</button>
+                          </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                        <a href="white.html"><img class="card-img-top" src="img/f5f5f5white.svg" alt="Card image cap"></a>  
+                        <p class="text">White</p>
+                        <p id="p21">#795548</p>    
+                        <button onclick="copyToClipboard('#p21')" class="btn">COPY</button> 
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                        <a href="gold.html"><img class="card-img-top" src="img/f9d57agold.svg" alt="Card image cap"></a>  
+                        <p class="text">Gold</p>
+                        <p id="p22">#795548</p>    
+                        <button onclick="copyToClipboard('#p22')" class="btn">COPY</button> 
+                          </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                    <a href="silver.html"><img class="card-img-top" src="img/d8d8d8silver.svg" alt="Card image cap"></a>  
+                        <p class="text">Silver</p>
+                        <p id="p23">#795548</p>    
+                        <button onclick="copyToClipboard('#p23')" class="btn">COPY</button> 
+                          </div>
+                          </div>
+                    </div>
+                </div>
+        </div>
+    </div>  
+ 
+
+ <!-- Copyright -->
+ <div class="footer-copyright text-center py-3">© 2018 The Power of Colors<br>
+    Created by: <a href="http://www.yourluckycode.com" style="font-size: 20px;"> Ollip</a>
+</div>
+  
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/popper-1.14.3.min.js"></script>
+  </body>
+</html>
